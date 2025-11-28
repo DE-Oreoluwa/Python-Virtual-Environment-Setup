@@ -1,0 +1,84 @@
+[1;36m[INFO][0m Starting project setup...
+[1;36m[INFO][0m Checking for Python virtual environment.
+[1;36m[INFO][0m Creating virtual environment...
+[1;32m[SUCCESS][0m Virtual environment created.
+[1;36m[INFO][0m Activating virtual environment...
+[1;32m[SUCCESS][0m Virtual environment activated.
+[1;36m[INFO][0m Upgrading pip inside virtual environment...
+Requirement already satisfied: pip in ./.venv/lib/python3.12/site-packages (24.0)
+Collecting pip
+  Using cached pip-25.3-py3-none-any.whl.metadata (4.7 kB)
+
+Using cached pip-25.3-py3-none-any.whl (1.8 MB)
+Installing collected packages: pip
+  Attempting uninstall: pip
+    Found existing installation: pip 24.0
+    Uninstalling pip-24.0:
+      Successfully uninstalled pip-24.0
+Successfully installed pip-25.3
+[1;32m[SUCCESS][0m Pip upgrade successful.
+[1;36m[INFO][0m Checking for .gitignore file...
+[1;36m[INFO][0m .gitignore does not exist.
+[1;32m[SUCCESS][0m .gitignore file created.
+[1;32m[SUCCESS][0m .gitignore file created with standard ignore rules added.
+[1;36m[INFO][0m Installing Python packages...
+Collecting numpy
+  Using cached numpy-2.3.5-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (62 kB)
+Collecting pandas
+  Using cached pandas-2.3.3-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (91 kB)
+Collecting requests
+  Using cached requests-2.32.5-py3-none-any.whl.metadata (4.9 kB)
+Collecting SQLAlchemy
+  Using cached sqlalchemy-2.0.44-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (9.5 kB)
+Collecting boto3
+  Using cached boto3-1.41.5-py3-none-any.whl.metadata (6.8 kB)
+Collecting python-dateutil>=2.8.2 (from pandas)
+  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting pytz>=2020.1 (from pandas)
+  Using cached pytz-2025.2-py2.py3-none-any.whl.metadata (22 kB)
+Collecting tzdata>=2022.7 (from pandas)
+  Using cached tzdata-2025.2-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting charset_normalizer<4,>=2 (from requests)
+  Using cached charset_normalizer-3.4.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (37 kB)
+Collecting idna<4,>=2.5 (from requests)
+  Using cached idna-3.11-py3-none-any.whl.metadata (8.4 kB)
+Collecting urllib3<3,>=1.21.1 (from requests)
+  Using cached urllib3-2.5.0-py3-none-any.whl.metadata (6.5 kB)
+Collecting certifi>=2017.4.17 (from requests)
+  Using cached certifi-2025.11.12-py3-none-any.whl.metadata (2.5 kB)
+Collecting greenlet>=1 (from SQLAlchemy)
+  Using cached greenlet-3.2.4-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (4.1 kB)
+Collecting typing-extensions>=4.6.0 (from SQLAlchemy)
+  Using cached typing_extensions-4.15.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting botocore<1.42.0,>=1.41.5 (from boto3)
+  Using cached botocore-1.41.5-py3-none-any.whl.metadata (5.9 kB)
+Collecting jmespath<2.0.0,>=0.7.1 (from boto3)
+  Using cached jmespath-1.0.1-py3-none-any.whl.metadata (7.6 kB)
+Collecting s3transfer<0.16.0,>=0.15.0 (from boto3)
+  Using cached s3transfer-0.15.0-py3-none-any.whl.metadata (1.7 kB)
+Collecting six>=1.5 (from python-dateutil>=2.8.2->pandas)
+  Using cached six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Using cached numpy-2.3.5-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.6 MB)
+Using cached pandas-2.3.3-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (12.4 MB)
+Using cached requests-2.32.5-py3-none-any.whl (64 kB)
+Using cached charset_normalizer-3.4.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (153 kB)
+Using cached idna-3.11-py3-none-any.whl (71 kB)
+Using cached urllib3-2.5.0-py3-none-any.whl (129 kB)
+Using cached sqlalchemy-2.0.44-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.3 MB)
+Using cached boto3-1.41.5-py3-none-any.whl (139 kB)
+Using cached botocore-1.41.5-py3-none-any.whl (14.3 MB)
+Using cached jmespath-1.0.1-py3-none-any.whl (20 kB)
+Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Using cached s3transfer-0.15.0-py3-none-any.whl (85 kB)
+Using cached certifi-2025.11.12-py3-none-any.whl (159 kB)
+Using cached greenlet-3.2.4-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (607 kB)
+Using cached pytz-2025.2-py2.py3-none-any.whl (509 kB)
+Using cached six-1.17.0-py2.py3-none-any.whl (11 kB)
+Using cached typing_extensions-4.15.0-py3-none-any.whl (44 kB)
+Using cached tzdata-2025.2-py2.py3-none-any.whl (347 kB)
+Installing collected packages: pytz, urllib3, tzdata, typing-extensions, six, numpy, jmespath, idna, greenlet, charset_normalizer, certifi, SQLAlchemy, requests, python-dateutil, pandas, botocore, s3transfer, boto3
+
+Successfully installed SQLAlchemy-2.0.44 boto3-1.41.5 botocore-1.41.5 certifi-2025.11.12 charset_normalizer-3.4.4 greenlet-3.2.4 idna-3.11 jmespath-1.0.1 numpy-2.3.5 pandas-2.3.3 python-dateutil-2.9.0.post0 pytz-2025.2 requests-2.32.5 s3transfer-0.15.0 six-1.17.0 typing-extensions-4.15.0 tzdata-2025.2 urllib3-2.5.0
+[1;32m[SUCCESS][0m Python packages installed successfully.
+[1;32m[SUCCESS][0m Project setup completed successfully!
+[1;32m[SUCCESS][0m Log file saved to setup.log
