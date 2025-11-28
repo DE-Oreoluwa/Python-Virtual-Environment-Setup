@@ -1,6 +1,7 @@
 # Python Virtual Environment Setup
 This is a Bash script that automates the setup of a clean, ready-to-use Python development environment. It handles virtual environment creation and activation, pip upgrades, package installation, gitignore file generation, and detailed logging, with colorful and user-friendly output.
 
+
 ## What the Script Does
 When you run the bash script, it:
 1.	Checks for an existing Python virtual environment.
@@ -13,6 +14,7 @@ When you run the bash script, it:
 4. Installs essential Python packages which includes numpy, pandas, requests, SQLAlchemy, boto (you can modify the list incase you need any package that is not in the script).
 5. Logs all operations: All activity is written to `setup.log` for debugging or auditing.
 6. Displays colored output: INFO, SUCCESS, WARNING, and ERROR messages are shown clearly using ANSI color codes.
+
 
 ## How to Execute the Script
 1. Create a bash file named `setup.sh` using;
@@ -31,6 +33,7 @@ When you run the bash script, it:
    - Creation and activation of a python virtual environment with python packages listed in the script which you can check after installation in the `.venv` directory
    - Generation of a gitignore file (`.gitignore`) which has some standard ignore rules.
    -  Creation of a log file (`setup.log`) which stores the process of running the script.
+
 
 ## Example of Output on the Terminal
 This is a sample of the output on the terminal when the script is running
